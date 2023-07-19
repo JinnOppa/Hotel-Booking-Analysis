@@ -1,12 +1,14 @@
 # Hotel Booking Data Analysis
 
-This project aims to perform an exploratory data analysis (EDA) on a hotel booking dataset to gain insights into various aspects of the bookings, cancellations, customer behavior, pricing, and room types.
+This project is my individual endeavor to perform exploratory data analysis (EDA) on a hotel booking dataset. The dataset provides valuable insights into various aspects of bookings, cancellations, customer behavior, pricing, and room types.
 
 ## Dataset Source
 
-The dataset used for this analysis is obtained from Kaggle. You can find the dataset on the Kaggle website at the following link: [Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand).
+The dataset used for this analysis is obtained from Kaggle. You can find the dataset on the Kaggle website at the following link: [Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand).
 
-## What's in the Dataset?
+## Dataset Description
+
+The hotel booking dataset contains information about hotel bookings and includes various details such as:
 
 The dataset contains information about hotel bookings and includes the following details:
 - `hotel`: Hotel type (Resort Hotel or City Hotel)
@@ -32,26 +34,26 @@ The dataset contains information about hotel bookings and includes the following
 - `assigned_room_type`: Code for the type of room assigned
 - `booking_changes`: Number of changes made to the booking
 - `deposit_type`: Type of deposit made for the booking (Non-refundable, Refundable, No Deposit)
-- `days_in_waiting_list`: Number of days the booking was in the waiting list
+- `days_in_waiting_list`: Number of days the booking was on the waiting list
 - `customer_type`: Type of booking (Transient, Contract, Group, Transient-Party)
-- `adr`: Average Daily Rate (Price per room, not per person)
+- `ADR`: Average Daily Rate (Price per room, not per person)
 - `required_car_parking_spaces`: Number of car parking spaces required by the guest
 - `total_of_special_requests`: Number of special requests made by the guest
 - `reservation_status`: Current status of the reservation (e.g., Check-Out, Canceled, No-Show)
 - `reservation_status_date`: Date of the last reservation status update
 
-## What We'll Do
 
-In this project, I'll perform data analysis and visualization to gain insights into different aspects of hotel bookings. Here's what I'll cover:
+## Key Features
+
 
 1. **Data Exploration**: Load the dataset, examine its size, and check for missing values.
 2. **Data Preprocessing**: Handle missing values and perform feature engineering.
 3. **Correlation Analysis**: Visualize the correlation between numerical features.
 4. **Cancelation Analysis**: Analyze the cancelation rate by hotel and market segment.
 5. **Customer Analysis**: Explore customer types, number of adults, children, and babies, and customer behavior based on market segment and hotel type.
-6. **Pricing Analysis**: Examine the average daily rate (ADR) by hotel and the distribution of average total price per booking.
+6. **Pricing Analysis**: Examine the average daily rate (ADR) by hotel and the distribution of the average total price per booking.
 7. **Room Analysis**: Analyze the room type distribution and the relationship between reserved and assigned room types.
-8. **Behavior Analysis**: Investigate the distribution of bookings with different deposit types, the number of special requests, and the car parking spaces requirement.
+8. **Behavior Analysis**: Investigate the distribution of bookings with different deposit types, the number of special requests, and the car parking space requirement.
 9. **Predictive Model**: Build time series forecasting models for cancelations and future bookings.
 
 ## Requirements
@@ -59,13 +61,17 @@ In this project, I'll perform data analysis and visualization to gain insights i
 - Python 3
 - Libraries: pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn
 
-## How to Use
+## Getting Started
 
-To explore the analysis and visualizations in this project, follow these steps:
+To start exploring the hotel booking dataset and performing the analysis, follow these steps:
 
-1. Clone the repository to your local machine using `git clone https://github.com/yourusername/hotel-booking-analysis.git`
-2. Install the required libraries by running `pip install -r requirements.txt`.
-3. Open the Jupyter Notebook `hotel_booking_analysis.ipynb`.
-4. Run the notebook cell by cell to perform the data analysis and visualize the results.
+1. **Clone the Repository**: Clone this GitHub repository to your local machine using the command git clone https://github.com/yourusername/hotel-booking-analysis.git.
+2. **Install Required Libraries**: Install the necessary libraries by running pip install -r requirements.txt.
+3. **Open the Notebook**: Open the Jupyter Notebook hotel_booking_analysis.ipynb in your preferred Python environment.
+4. **Run the Notebook**: Execute the notebook cells one by one to perform the data analysis and visualize the results.
 
-Feel free to explore the notebook, and if you have any questions or suggestions, don't hesitate to reach out. Happy analyzing!
+## Contact Information
+
+For any further inquiries or information regarding this project, please feel free to contact me at [eugene.winata@gmail.com](eugene.winata@gmail.com).
+
+Enjoy exploring the Hotel Booking Data Analysis project!
